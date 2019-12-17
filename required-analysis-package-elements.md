@@ -1,5 +1,5 @@
-### Analysis Package Elements _(DRAFT 20191211)_
-This document lists and describes the elements required for an analysis package. Here, an element is defined as categorical information needed to understand and use the package in a traceable and repeatable manner. Each element needs to be present in the package's code and supporting documents. All the elements listed below are required for the various stages of the analysis package life cycle: design, development, review, acceptance, deployment, maintenance, and curation. Each element, with its provenance, **must** be present in that package's bapcat record.
+### Analysis Package Elements (DRAFT)_
+This document lists and describes the elements required for an analysis package. Here, an element is defined as categorical information needed to build, understand and use the package in a traceable and repeatable manner. Each element needs to be present in the package's code and supporting documents. All the elements listed below are required for each stage of the analysis package life cycle: design, development, review, acceptance, deployment, maintenance, and curation. Each element, with its provenance, **must** be present in that package's bapcat record.
 
 This document is derived from <https://github.com/usgs-bcb/documenting-baps/blob/master/analysis-package-elements.md> and <https://github.com/usgs-bis/nbmdocs/blob/master/docs/baps.rst> (Retrieved 2019-12-10).
 
@@ -53,7 +53,7 @@ Document the code. Be aware of and try to code against APIs and standards (e.g. 
 *Required provenance values:*
 
 #### Tests
-Provide tests and test data for the analysis package code. Document the purpose fo the tests and the expected results. Store test code and data in the same publically accessible repository as the source code. Provide links.
+Provide tests and test data for the analysis package code. Document the purpose for the tests and the expected results. Store test code and data in the same publically accessible repository as the source code. Provide links.
 
 *Required provenance values:*
 
@@ -63,4 +63,4 @@ Provide the citations necessary to establish the scholarly basis for the choice 
 *Required provenance values:*
 
 #### Provenance
-Traceable and transparent provenance information is required for each of the elements detailed above.
+Traceable and transparent provenance information is required for each element listed above.
