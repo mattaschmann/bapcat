@@ -1,0 +1,83 @@
+{
+  "baps": [
+    {
+      "id": "usnvc",
+      "name": "U. S. National Vegetation Classification",
+      "sbItem": "5cb74a8ae4b0c3b0065d7b2d",
+      "apiUrl": "https://usnvc-staging.snafu.cr.usgs.gov/",
+      "pipelineId": "USNVC"
+    },
+    {
+      "id": "usnvcpixel",
+      "name": "NVCS Hierarchy by Pixel",
+      "sbItem": "582a1819e4b01fad8726554a"
+    },
+    {
+      "id": "usnvcsummary",
+      "name": "NVCS Summary",
+      "sbItem": "5c6c58b3e4b0fe48cb3e5d13"
+    },
+    {
+      "id": "flsi",
+      "name": "First Leaf Spring Index",
+      "sbItem": "58bf0b61e4b014cc3a3a9c10"
+    },
+    {
+      "id": "fbsi",
+      "name": "First Bloom Spring Index",
+      "sbItem": "5abd5fede4b081f61abfc472"
+    },
+    {
+      "id": "flfbsic",
+      "name": "First Leaf / First Bloom Spring Index Comparison",
+      "sbItem": "5b685d1ce4b006a11f75b0a8"
+    },
+    {
+      "id": "nfhp",
+      "name": "Fish Habitat Condition and Disturbance Summaries",
+      "sbItem": "5aa2b21ae4b0b1c392e9d968"
+    },
+    {
+      "id": "pses",
+      "name": "Protection Status of Ecological Systems",
+      "sbItem": "5b747802e4b0f5d5787ed299"
+    },
+    {
+      "id": "pstvs",
+      "name": "Protection Status of Terrestrial Vertebrate Species",
+      "sbItem": "5b86d48ce4b0702d0e7962b5"
+    },
+    {
+      "id": "pf",
+      "name": "Phenology Forecasts",
+      "sbItem": "5b96d589e4b0702d0e82700a"
+    },
+    {
+      "id": "obis",
+      "name": "Most Reported Marine Species per Exclusive Economic Zone",
+      "sbItem": "5b7c1ef2e4b0f5d5788601be"
+    },
+    {
+      "id": "badneighbor",
+      "name": "Potential Non-native Species Occurring in Neighboring States",
+      "sbItem": "5b7c1ef2e4b0f5d5788601be"
+    },
+    {
+      "id": "nlulcptacp",
+      "name": "A National Land Use And Land Cover Projection For Threat Assessment And Conservation Planning",
+      "sbItem": "5a87249de4b00f54eb3a2e1e"
+    },
+    {
+      "id": "sfr",
+      "name": "SFR"
+    },
+    {
+      "id": "drip",
+      "name": "DRIP"
+    },
+    {
+      "id": "SGCN",
+      "name": "SGCN"
+    }
+  ]
+}
