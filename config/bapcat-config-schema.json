@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "IBap": {
+            "properties": {
+                "apiUrl": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "pipelineId": {
+                    "type": "string"
+                },
+                "sbItem": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "baps": {
+            "items": {
+                "$ref": "#/definitions/IBap"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "baps"
+    ],
+    "type": "object"
+}
+
